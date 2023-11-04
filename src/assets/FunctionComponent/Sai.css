@@ -1,0 +1,29 @@
+.box{
+    
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+  border-width: 2%;
+  border-color: black;
+  background-color:lightgreen;
+  margin: 2%;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2%;
+  font-style: italic;
+  border-radius: 5%;
+}
+
+
+button{
+
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+   
+
+}
+.flex{
+
+    background-color: lightblue;
+}
