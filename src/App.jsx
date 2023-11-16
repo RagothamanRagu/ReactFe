@@ -55,18 +55,30 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 // import Reacthookform from './assets/FunctionComponent/Reacthookform/'
- import Todolist from './assets/FunctionComponent/Reacthookform/Todolist'
-import Accord from './assets/FunctionComponent/component/Accord';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Cardcomp from './common/cardcomp';
-import Boostrap from './common/Bootstap';
+//  import Todolist from './assets/FunctionComponent/Reacthookform/Todolist'
+// import Accord from './assets/FunctionComponent/component/Accord';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import Cardcomp from './common/cardcomp';
+// import Boostrap from './common/Bootstap';
+import CounterReduxcoomp from './assets/FunctionComponent/component/counterReduxcoomp';
+ import { counterprovider } from 'react';
+import store from './Redux/store';
+
 function App(){
   return (
     
     <div>
-      <Cardcomp/>
-      <Accord/>
-      <Boostrap/>
+
+     <counterprovider>
+      <CounterReduxcoomp/>
+      </counterprovider>
+
+    
+
+
+      {/* <Boostrap/> */}
+      {/* <Accord/> */}
+      {/* <Boostrap/> */}
       {/* <ReactHookForm/> */}
     {/* <Reacthookform/> */}
       {/* <Todolist/> */}

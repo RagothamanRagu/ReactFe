@@ -4,11 +4,11 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 export default function Boostrap() {
-    const [title, settitle] = useState([
+    const [data, setdata] = useState([
         {
             title: "Flower",
-            img: "https://kinsta.com/wp-content/uploads/2020/08/tiger-jpg.jpg",
-        },
+            img:""
+        },  
         {
             title: "animal",
             img: "https://kinsta.com/wp-content/uploads/2020/08/tiger-jpg.jpg",
@@ -23,7 +23,7 @@ export default function Boostrap() {
         },
         {
             title: "love",
-            img: "https://kinsta.com/wp-content/uploads/2020/08/tiger-jpg.jpg",
+            img: "https://kinsta.com/wp-content/uploads/2020/08/tiger-jpg.jpg",        
         },
         {
             title: "love forever",
@@ -57,16 +57,16 @@ export default function Boostrap() {
 
     return (
 
-        <div className="row">
+        <div>
 
-            {title.map((dd, i) => (
 
+                
+            {data.map((dd, i) => (
                 <div className="col-3" key={i}>
-
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="holder.js/100px180" />
                         <Card.Body>
-                            <Card.Title>{dd.title}</Card.Title>
+                            <Card.Title>Card Title</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
@@ -74,16 +74,28 @@ export default function Boostrap() {
                             <Button variant="primary">Go somewhere</Button>
                         </Card.Body>
                     </Card>
+
                 </div>
-
             ))}
-
         </div>
-
+     
     );
 
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
