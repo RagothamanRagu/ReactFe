@@ -58,7 +58,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
  import Todolist from './assets/FunctionComponent/Reacthookform/Todolist'
 // import Accord from './assets/FunctionComponent/component/Accord';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import Cardcomp from './common/cardcomp';
+// import Cardcomp from './common/cardcomp';
 // // import Boostrap from './common/Bootstap';
 // import CounterReduxcoomp from './assets/FunctionComponent/component/counterReduxcoomp';
 //  import { counterprovider } from 'react';
