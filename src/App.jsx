@@ -82,7 +82,7 @@ function App(){
       {/* <ReactHookForm/> */}
     {/* <Reacthookform/> */}
       {/* <Todolist/> */}
-      {/* <Form/> */}
+      <Form/>
     </div>
   )
 
