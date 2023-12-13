@@ -59,19 +59,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import Accord from './assets/FunctionComponent/component/Accord';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import Cardcomp from './common/cardcomp';
-// import Boostrap from './common/Bootstap';
-import CounterReduxcoomp from './assets/FunctionComponent/component/counterReduxcoomp';
- import { counterprovider } from 'react';
-import store from './Redux/store';
+// // import Boostrap from './common/Bootstap';
+// import CounterReduxcoomp from './assets/FunctionComponent/component/counterReduxcoomp';
+//  import { counterprovider } from 'react';
+// import store from './Redux/store';
 
 function App(){
   return (
     
     <div>
-
+{/* 
      <counterprovider>
       <CounterReduxcoomp/>
-      </counterprovider>
+      </counterprovider> */}
 
     
 
