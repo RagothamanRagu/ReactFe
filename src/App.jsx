@@ -1,29 +1,33 @@
-//  import React from "react"
-//  import { Component } from "react";
-// // import Propsdaytwo from "./propsdaytwo";
-// // import Daythree from "./Daythree";
+import React from "react";
+import { Component } from "react";
+//  import Propsdaytwo from "./propsdaytwo";
+//  import Daythree from "./Daythree";
 // // import Funday from './assets/FunctionComponent/Funday';
 //    import Farm from "./assets/FunctionComponent/component/Farm";
+       
+
 
 
 
 // or less ideally
-import { Button, CardBody } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import { Button, CardBody } from 'react-bootstrap';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 // //  class App extends Component {
 // //  Constructor(){
 // //     super()
 // //     console.log("Constructor");
 // //   }
-  
 
 
-//    return(
-      
-//      <>
-//            <Farm/>    
+
+  //  return(
+
+  //    <>
+             
+                  
+{/* //            <Farm/>     */}
 //            {/* <Funday/> */}
-// {/* //         <Daythree/> */}
+        // <Daythree/> */}
 // {/* //         <h1>total ticket :{this.state.count}</h1> */}
 // {/* //         <Propsdaytwo moviename={"jailer"} functionone={this.handleAdd} />
 // //         <Propsdaytwo moviename={"kanguva"} functionone={this.handleAdd} />
@@ -32,22 +36,23 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // //       
 // //       </>
 
-//     )
-
- 
- 
-
-    
-//  // }
-    
-
-//  //    }
+    // )
 
 
-//  export default App
 
 
-// // import React from 'react'
+
+//  }
+
+
+//    }
+
+// export default App
+
+//       import Flood from "./Weather/Flood";
+    //  import Money from './interview/Money'
+   import BackEnd from "./interview/BackEnd";
+//  import React from 'react'
 // // import Listui from "./Listui";
 
 // import React from 'react'
@@ -55,7 +60,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 // import Reacthookform from './assets/FunctionComponent/Reacthookform/'
- import Todolist from './assets/FunctionComponent/Reacthookform/Todolist'
+//  import Todolist from './assets/FunctionComponent/Reacthookform/Todolist'
 // import Accord from './assets/FunctionComponent/component/Accord';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import Cardcomp from './common/cardcomp';
@@ -63,32 +68,41 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import CounterReduxcoomp from './assets/FunctionComponent/component/counterReduxcoomp';
 //  import { counterprovider } from 'react';
 // import store from './Redux/store';
-
-function App(){
+    
+ export default function App() {
   return (
-    
-    <div>
-{/* 
-     <counterprovider>
-      <CounterReduxcoomp/>
-      </counterprovider> */}
 
-    
+    <div> 
 
-
-      {/* <Boostrap/> */}
+             {/* <Flood/> */}
+       <BackEnd/>   
+           
+  {/* //  <counterprovider>  */}
+      {/* <CounterReduxcoomp/> */}
+    {/* //   </counterprovider> }              */}
+          {/* <Bootstap/>  */}
       {/* <Accord/> */}
       {/* <Boostrap/> */}
       {/* <ReactHookForm/> */}
-    {/* <Reacthookform/> */}
-      <Todolist/>
+      {/* <Reacthookform/> */}
+      {/* <Todolist/> */}
       {/* <Form/> */}
-    </div>
-  )
+    
+     </div>
+  );
+} 
 
-  }
 
-export default App
+
+
+
+
+
+
+
+
+
+
 
 
 
