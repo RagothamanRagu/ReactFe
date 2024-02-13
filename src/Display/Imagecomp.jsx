@@ -11,12 +11,12 @@ import nine from "../assets/Sai/nine.jpg"
 import ten from "../assets/Sai/ten.jpg"
 import "./imagecomp.css"
 
-export default function Imagecomp() {
+export default function Imagecomps() {
   return (
     <div style={{display:"flex", justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
       <h1>different souls</h1>
 
-      <img src={onece} alt='Mountain' />
+      <img src={one} alt='Mountain' />
       <p>"Never measure the height of a mountain until you reach the top.Then you see how low it  was"</p>
 
       <img src={two} alt="ocean" />
