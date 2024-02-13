@@ -17,7 +17,7 @@ export default function Imagecomp() {
       <h1>different souls</h1>
 
       <img src={one} alt="Mountain "/>
-      <p>"Never measure the height of a mountain until you reach the top.Then you see how low it  was"</p>
+      <p>"Never measure the height of ac mountain until you reach the top.Then you see how low it  was"</p>
 
       <img src={two} alt="ocean" />
       <p>"It can be calm or still,and rough or rigid,But in the end,it is always beautifull"</p>
