@@ -50,7 +50,26 @@ button{
    padding-right: 50px;
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.icon{
+  font-size: 2rem;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+li{
+list-style: none;
+}
+body{
+  background: black;
+}
 
 
 

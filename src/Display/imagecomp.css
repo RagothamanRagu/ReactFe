@@ -1,0 +1,11 @@
+
+body{
+    background-color:gold
+}
+img{
+    justify-content: space-between;
+    height: 250px;
+    width: 200px;
+    padding: 15px;
+    
+}
