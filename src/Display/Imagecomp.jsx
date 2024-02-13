@@ -16,7 +16,7 @@ export default function Imagecomp() {
     <div style={{display:"flex", justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
       <h1>different souls</h1>
 
-      <img src={one} alt='Mountain' />
+      <img src={onece} alt='Mountain' />
       <p>"Never measure the height of a mountain until you reach the top.Then you see how low it  was"</p>
 
       <img src={two} alt="ocean" />
